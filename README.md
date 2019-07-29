@@ -4,7 +4,7 @@
 ![Example screenshot](.public/img/READMEscreenshot.png)
 
 ## View Demo
-This project has been deployed to [Netlify](https://www.netlify.com/) And can be found [Here](https://thatblockgame.netlify.com/)
+This project has been deployed to [Netlify](https://www.netlify.com/) and can be found [Here](https://thatblockgame.netlify.com/)
 
 (https://thatblockgame.netlify.com/)
 
@@ -16,11 +16,6 @@ This implementation of the game Tetris makes use of the most popular modern Comp
 * React
 
 ## Setup
-### Demo:
-
-This project has been deployed to [Netlify](https://www.netlify.com/) And can be found [Here](https://thatblockgame.netlify.com/)
-
-### Local Setup:
 
 `git clone`
 
