@@ -1,7 +1,7 @@
 # My Tetris
 > My implementation of the classic and beloved game. I built this project using React and Typescript. The goal was to become more familiar with the technologies used.
 
-![Example screenshot](.public/img/READMEscreenshot.png)
+![Example screenshot](/public/img/READMEscreenshot.png)
 
 ## View Demo
 This project has been deployed to [Netlify](https://www.netlify.com/) and can be found [Here](https://thatblockgame.netlify.com/)
