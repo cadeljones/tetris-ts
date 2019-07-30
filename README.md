@@ -26,5 +26,7 @@ This implementation of the game Tetris makes use of the most popular modern Comp
 ## To-do list:
 * Preview where a tile is going to land
 * Highscores
+* Styling
+* Major Refactors to design of code and React Components
 
 Created by [cadeljones](https://cadeljones.com/) - feel free to contact me!
