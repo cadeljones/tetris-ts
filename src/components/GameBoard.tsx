@@ -481,6 +481,12 @@ class GameBoard extends React.Component<GameBoardProps, GameBoardState> {
     });
   }
 
+  refreshPage() {
+    window.location.reload(false);
+  }
+
+
+
   render() {
     return (
       <div className="tetris-board">
@@ -488,13 +494,16 @@ class GameBoard extends React.Component<GameBoardProps, GameBoardState> {
 
         {/* Game board */}
         {this.state.gameOver && "Game Over"}
+        {this.state.gamePaused && "PAUSED"}
         <br />
         {"score: " + this.state.score}
         <br />
         {"level: " + this.state.level}
         <br />
+        <br />
         {/* {"is paused: " + this.state.gamePaused} */}
         <div className="tetris-board__board">{this.state.rows}</div>
+        <button onClick={this.refreshPage}>Restart</button>
         {/* <button onClick={this.pause}>{this.state.gamePaused ? "Play": "Pause"} Game</button> */}
 
         {/* <button onClick={this.renderTile}>click</button> */}
